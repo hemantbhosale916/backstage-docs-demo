@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "backstage-docs-demo"
+  description: "backstage-docs-demo"
+  annotations:
+    github.com/project-slug: hemantbhosale916/backstage-docs-demo
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "group:default/team-b"
